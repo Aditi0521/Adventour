@@ -35,3 +35,15 @@ Admin
 To run the admin-side of the application, navigate to the admin directory and run the following command:
 npm start
 This will start the admin interface on http://localhost:3002.
+
+To run the backend:
+PS D:\mern_final\mern_final> cd booking
+PS D:\mern_final\mern_final\booking> cd api
+PS D:\mern_final\mern_final\booking\api> nodemon index.js
+[nodemon] 3.1.2
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Conected to backend
+Connected to mongoDB
